@@ -13,6 +13,5 @@ namespace Wrox.ProCSharp.WCF.Contracts
     [OperationContract]
     [FaultContract(typeof(RoomReservationFault))]
     RoomReservation[] GetRoomReservations(DateTime fromDate, DateTime toDate);
-
   } 
 }

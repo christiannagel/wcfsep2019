@@ -19,7 +19,7 @@ namespace RoomReservationClientSharedAssembly
         StartTime = DateTime.Now,
         EndTime = DateTime.Now.AddHours(1)
       };
-      this.DataContext = roomReservation;
+      DataContext = roomReservation;
     }
 
     private void OnReserveRoom(object sender, RoutedEventArgs e)

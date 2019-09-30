@@ -11,6 +11,7 @@ namespace Wrox.ProCSharp.WCF.Data
     {
 
     }
+
     public DbSet<RoomReservation> RoomReservations { get; set; }
   }
 }

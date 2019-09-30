@@ -20,7 +20,7 @@ namespace Wrox.ProCSharp.WCF.Service
       }
       catch(Exception ex)
       {
-        RoomReservationFault fault = new RoomReservationFault { Message = ex.Message };
+        var fault = new RoomReservationFault { Message = ex.Message };
         throw new FaultException<RoomReservationFault>(fault);
       }
       return true;

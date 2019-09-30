@@ -13,7 +13,7 @@ namespace WebSocketsSample
       int loop = 0;
       while ((callback as IChannel).State == CommunicationState.Opened)
       {
-        await callback.SendMessage(string.Format("Hello from the server {0}", loop++));
+        await callback.SendMessage($"Hello from the server {loop++}");
         await Task.Delay(1000);
       }
     }

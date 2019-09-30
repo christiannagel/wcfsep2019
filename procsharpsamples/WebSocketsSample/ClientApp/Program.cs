@@ -10,7 +10,7 @@ namespace ClientApp
     {
       public void SendMessage(string message)
       {
-        Console.WriteLine("message from the server {0}", message);
+        Console.WriteLine($"message from the server {message}");
       }
     }
 

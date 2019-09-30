@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheFirstsWCFService", "TheFirstsWCFService\TheFirstsWCFService.csproj", "{AF16B2F9-C2C6-48DE-8E08-698F52D126EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApp", "ClientApp\ClientApp.csproj", "{D0D2297E-D336-47BF-829E-6E360FE892BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF16B2F9-C2C6-48DE-8E08-698F52D126EE} = {AF16B2F9-C2C6-48DE-8E08-698F52D126EE}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,15 @@ Global
 		{AF16B2F9-C2C6-48DE-8E08-698F52D126EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF16B2F9-C2C6-48DE-8E08-698F52D126EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF16B2F9-C2C6-48DE-8E08-698F52D126EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D2297E-D336-47BF-829E-6E360FE892BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D2297E-D336-47BF-829E-6E360FE892BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D2297E-D336-47BF-829E-6E360FE892BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D2297E-D336-47BF-829E-6E360FE892BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE05C879-81D9-45AE-AE3D-2CB1B3A515EF}
 	EndGlobalSection
 EndGlobal

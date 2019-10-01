@@ -14,5 +14,4 @@ namespace Wrox.ProCSharp.WCF
       [OperationContract]
       void MessageToServer(string message);
    }
-
 }
